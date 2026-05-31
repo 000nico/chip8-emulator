@@ -1,0 +1,1 @@
+gcc main.c cpu.c memory.c graphics.c -o chip8.exe -ISDL/include -LSDL/lib -lSDL3
