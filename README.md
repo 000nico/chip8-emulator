@@ -56,6 +56,11 @@ As for the code itself:
 
 ---
 
+## Conclusion
+
+Its important to know that when emulating a console, we want to recreate the enviroment perfectly, emulating the graphics, the sound, and the most importante, the CPU. We should emulate the registers, read the image and draw it pixel by pixel, and showing it in a window. In harder scenarios, we should also synchronize thinking about at what speed things work, and executing everything in the same cycle. When writing an emulator we need to get a lot of information about hardware. You will need to get used to debugging for weeks (for more complex consoles).
+Building an emulator requires a deep understaing of computer architecture and hardware documentation. While it is challenging and time consuming, its also an excelent way to learn about low-level programming, system design and computers architecture
+
 ## Controls
 
 | CHIP-8 keyboard | Modern keyboard |
